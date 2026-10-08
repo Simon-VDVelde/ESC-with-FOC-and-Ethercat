@@ -1,0 +1,179 @@
+(footprint "998-MIC4604YM-TR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "U"
+		(at 3 4.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ae76c3ac-7b2c-42be-8a05-34fe894818a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Half-Bridge driver"
+		(at -1.09 9.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9a186bdf-2f6d-4975-a4eb-44d321cffae1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.be/datasheet/3/282/1/MIC4604-Data-Sheet-DS20005852.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9513b4d4-fca1-4875-84c6-2ba0a19af44a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21ec813d-4d34-4de5-8aac-32a766e853b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.59 2.6)
+		(end -2.59 3.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d1ca406b-c886-4cf5-be0b-089791cdef9d")
+	)
+	(fp_line
+		(start -2.59 2.6)
+		(end 2.31 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4b7e00f5-fc85-4194-8562-9fbc315fcc16")
+	)
+	(fp_line
+		(start -2.59 5)
+		(end -2.59 5.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e921201-2fd5-4643-92d9-07cfcde70654")
+	)
+	(fp_line
+		(start -2.59 5.95)
+		(end 2.31 5.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ac76b570-1a9c-4552-bb2a-f1132c53883b")
+	)
+	(fp_line
+		(start 2.31 2.6)
+		(end 2.31 5.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9fa7e8cc-e093-48d8-9331-5e43853e9562")
+	)
+	(fp_arc
+		(start -2.59 3.4)
+		(mid -1.79 4.2)
+		(end -2.59 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "12c04961-2691-4caa-9cc7-b0fe38afbfbc")
+	)
+	(fp_circle
+		(center -3.09 6.65)
+		(end -3.29 6.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "b2c2d3c0-ec45-44a3-af7c-3534c3407b0a")
+	)
+	(pad "1" smd rect
+		(at -2.06 7)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f2d25176-0850-40ad-8b1c-f0a9093cc44c")
+	)
+	(pad "2" smd rect
+		(at -0.79 7)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9bd8c5bf-a86a-4692-a888-2faa6bfbfbe9")
+	)
+	(pad "3" smd rect
+		(at 0.48 7)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d9d35836-7189-4884-b801-e547d8a0a97d")
+	)
+	(pad "4" smd rect
+		(at 1.75 7)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "efc53076-2262-47d2-9c9e-2d18fd36abf7")
+	)
+	(pad "5" smd rect
+		(at 1.78 1.6)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4f4ad4f8-e9b2-40b9-b750-3f0680ae4981")
+	)
+	(pad "6" smd rect
+		(at 0.51 1.6)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1c428025-481d-4ff3-b06a-9532205d2b66")
+	)
+	(pad "7" smd rect
+		(at -0.76 1.6)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84b98c7d-853b-40b8-abd3-8b2e296c1e52")
+	)
+	(pad "8" smd rect
+		(at -2.03 1.6)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0fd290f3-b5d3-4587-a88c-2460894ace8e")
+	)
+	(embedded_fonts no)
+)
