@@ -4,4 +4,5 @@
 	(lib (name "Condensator_Polarized") (type "KiCad") (uri "${KIPRJMOD}/Condensator_Polarized.pretty") (options "") (descr ""))
 	(lib (name "STM32G4") (type "KiCad") (uri "${KIPRJMOD}/STM32G4.pretty") (options "") (descr ""))
 	(lib (name "Half-Bridge_Driver") (type "KiCad") (uri "${KIPRJMOD}/Half-Bridge_Driver.pretty") (options "") (descr ""))
+	(lib (name "Footprintsymbolen_samen") (type "KiCad") (uri "${KIPRJMOD}/Footprintsymbolen_samen.pretty") (options "") (descr ""))
 )
