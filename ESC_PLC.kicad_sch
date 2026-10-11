@@ -17,6 +17,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 168.91) (xy 87.63 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff2692f-146f-4ce7-8d8b-0f62b8540e21")
+	)
+	(wire
+		(pts
 			(xy 135.89 162.56) (xy 154.94 162.56)
 		)
 		(stroke
@@ -57,6 +67,26 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 166.37) (xy 87.63 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e851524-d82d-4e7b-b60e-c116e79e67f4")
+	)
+	(wire
+		(pts
+			(xy 82.55 171.45) (xy 87.63 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e67c09-a3f0-4634-a54b-fe2f316e254a")
+	)
+	(wire
+		(pts
 			(xy 135.89 165.1) (xy 154.94 165.1)
 		)
 		(stroke
@@ -64,6 +94,16 @@
 			(type default)
 		)
 		(uuid "c2f41a08-3717-4e3a-9e25-4cea17128e0c")
+	)
+	(wire
+		(pts
+			(xy 82.55 173.99) (xy 87.63 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d076bfde-e9a2-437b-a232-a9b8279dbb82")
 	)
 	(sheet
 		(at 87.63 140.462)
@@ -161,6 +201,46 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "CAN_RX" input
+			(at 87.63 168.91 180)
+			(uuid "13cf20b1-b3e7-4ac5-98f0-f81f59f3adb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_TX" output
+			(at 87.63 166.37 180)
+			(uuid "da413d15-ce06-43c9-bc27-204b992fdd32")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_SHDN" output
+			(at 87.63 173.99 180)
+			(uuid "1bfaebec-510d-4bc9-9b25-1b4f05c65409")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CAN_STB" output
+			(at 87.63 171.45 180)
+			(uuid "d5b9e268-da63-4158-a219-5dcbc0b7e5c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -358,6 +438,92 @@
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 162.56)
+		(size 39.37 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fe40b710-6ad0-4f5f-80cc-5572b327525f")
+		(property "Sheetname" "CAN"
+			(at 43.18 161.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN.kicad_sch"
+			(at 43.18 177.1146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CAN_RXD" input
+			(at 82.55 166.37 0)
+			(uuid "90da5e3c-1ddd-497b-b0dd-6c9841db1422")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_SHDN" input
+			(at 82.55 173.99 0)
+			(uuid "689c521e-92f9-4d3a-b386-fddea83dbe6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_STB" input
+			(at 82.55 171.45 0)
+			(uuid "544c4e6f-ab22-43ad-93c2-c528e39aedea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CAN_TXD" output
+			(at 82.55 168.91 0)
+			(uuid "dde08487-fffd-4966-bb91-b9fca8ecb38c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ESC_PLC"
+				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14"
+					(page "5")
 				)
 			)
 		)

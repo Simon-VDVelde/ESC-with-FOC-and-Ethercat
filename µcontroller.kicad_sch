@@ -3099,6 +3099,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 85.09) (xy 158.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253efc95-5708-4813-8707-16f539caf77d")
+	)
+	(wire
+		(pts
 			(xy 132.08 189.23) (xy 134.62 189.23)
 		)
 		(stroke
@@ -3479,6 +3489,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 82.55) (xy 158.75 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b23c7d-3168-43bf-931a-12df65304ddd")
+	)
+	(wire
+		(pts
 			(xy 137.16 35.56) (xy 142.24 35.56)
 		)
 		(stroke
@@ -3486,6 +3506,16 @@
 			(type default)
 		)
 		(uuid "d4de7259-1a61-4d9f-9b50-049f7c9bd815")
+	)
+	(wire
+		(pts
+			(xy 154.94 80.01) (xy 158.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66e71a1-5cb8-403a-aea2-fb8dd91b5fad")
 	)
 	(wire
 		(pts
@@ -3506,6 +3536,16 @@
 			(type default)
 		)
 		(uuid "e0918418-d728-4282-bc87-f9d2e8c95310")
+	)
+	(wire
+		(pts
+			(xy 154.94 87.63) (xy 158.75 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e68a735e-8689-4ed1-86ee-3ebd4c75071d")
 	)
 	(wire
 		(pts
@@ -3568,6 +3608,17 @@
 		)
 		(uuid "0dc1ea6d-feba-4b7c-994e-7f4bc0021c78")
 	)
+	(hierarchical_label "CAN_STB"
+		(shape output)
+		(at 158.75 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2167f4c8-bac9-4a18-a5c9-e863ad75aaf0")
+	)
 	(hierarchical_label "QSPI_IO3"
 		(shape bidirectional)
 		(at 157.48 67.31 0)
@@ -3589,6 +3640,17 @@
 			(justify left)
 		)
 		(uuid "355366c3-32e0-4fe8-8e52-11f3c3700990")
+	)
+	(hierarchical_label "CAN_SHDN"
+		(shape output)
+		(at 158.75 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f72bb9c-f868-445a-9db8-90914cb3ed70")
 	)
 	(hierarchical_label "QSPI_IO2"
 		(shape bidirectional)
@@ -3622,6 +3684,28 @@
 			(justify left)
 		)
 		(uuid "69a98230-d30c-4fbc-afb5-7df214bb82cd")
+	)
+	(hierarchical_label "CAN_RX"
+		(shape input)
+		(at 158.75 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a804b3a2-38f8-4dfc-a276-d40d0c104c7d")
+	)
+	(hierarchical_label "CAN_TX"
+		(shape output)
+		(at 158.75 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce985a1f-85c9-48c7-b0cb-436d02a9a6bf")
 	)
 	(symbol
 		(lib_id "Device:C")
