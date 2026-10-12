@@ -249,6 +249,7 @@
 			)
 			(embedded_fonts no)
 		)
+<<<<<<< Updated upstream
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -388,6 +389,8 @@
 			)
 			(embedded_fonts no)
 		)
+=======
+>>>>>>> Stashed changes
 		(symbol "power:GNDREF"
 			(power global)
 			(pin_numbers
@@ -542,22 +545,44 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 151.13 92.71) (xy 151.13 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a9e58b-af53-4f44-80f7-e17167e3a019")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 123.19 92.71) (xy 123.19 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "4330173c-172b-451b-83e6-bcdd17d47d0e")
 	)
 	(wire
 		(pts
 			(xy 173.99 62.23) (xy 173.99 64.77)
+=======
+		(uuid "c4cddd41-0f92-464a-af3b-430c553c99d8")
+	)
+	(wire
+		(pts
+			(xy 179.07 92.71) (xy 179.07 93.98)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "4b23891e-c0b1-4302-9415-10163725f608")
 	)
 	(wire
@@ -603,6 +628,13 @@
 	(symbol
 		(lib_id "Driver_FET:MIC4604YM")
 		(at 148.59 77.47 0)
+=======
+		(uuid "cb0fde6d-2330-4299-97d3-2e536a4bc718")
+	)
+	(symbol
+		(lib_id "Driver_FET:MIC4604YM")
+		(at 179.07 77.47 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -611,9 +643,15 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+<<<<<<< Updated upstream
 		(uuid "08a337ce-61f1-4136-9713-b67e58f70e6d")
 		(property "Reference" "U4"
 			(at 150.7333 62.23 0)
+=======
+		(uuid "0c67241e-b5ab-4d77-92f2-72f496376a8e")
+		(property "Reference" "U5"
+			(at 181.2133 62.23 0)
+>>>>>>> Stashed changes
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -624,7 +662,11 @@
 			)
 		)
 		(property "Value" "MIC4604YM"
+<<<<<<< Updated upstream
 			(at 150.7333 64.77 0)
+=======
+			(at 181.2133 64.77 0)
+>>>>>>> Stashed changes
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -635,7 +677,11 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+<<<<<<< Updated upstream
 			(at 146.05 69.85 0)
+=======
+			(at 176.53 69.85 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -646,7 +692,11 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005852A.pdf"
+<<<<<<< Updated upstream
 			(at 148.59 67.31 0)
+=======
+			(at 179.07 67.31 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -657,7 +707,11 @@
 			)
 		)
 		(property "Description" "85V Half-Bridge MOSFET Driver with up to 16V Programmable Gate Drive, SOIC-8"
+<<<<<<< Updated upstream
 			(at 148.59 77.47 0)
+=======
+			(at 179.07 77.47 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -668,6 +722,7 @@
 			)
 		)
 		(pin "7"
+<<<<<<< Updated upstream
 			(uuid "cfe3af48-d6df-4119-9cf1-400545d401e3")
 		)
 		(pin "1"
@@ -690,10 +745,35 @@
 		)
 		(pin "4"
 			(uuid "3825fdfa-7bef-4072-951a-cfcbdba2b68c")
+=======
+			(uuid "b20ccab2-7094-432b-913d-655b8c4d48df")
+		)
+		(pin "1"
+			(uuid "1169cb52-4130-4375-87a5-c56b3308ea10")
+		)
+		(pin "2"
+			(uuid "2d0e5f60-a8a4-4245-b8e5-0acc15957cbc")
+		)
+		(pin "6"
+			(uuid "d458e996-bb9b-41e0-8327-81acef3acade")
+		)
+		(pin "5"
+			(uuid "36235ee4-8bda-4c70-8f0b-da43e726d14a")
+		)
+		(pin "3"
+			(uuid "761ee8c1-4565-4e56-9737-efe5cdc86bd4")
+		)
+		(pin "8"
+			(uuid "c663f810-a444-4714-af8f-32454cb7a5aa")
+		)
+		(pin "4"
+			(uuid "3c202258-791d-467f-b8c9-653b65a20a02")
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/f279548b-ece9-4652-a394-a07c8e217d6e"
+<<<<<<< Updated upstream
 					(reference "U4")
 					(unit 1)
 				)
@@ -850,6 +930,9 @@
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/f279548b-ece9-4652-a394-a07c8e217d6e"
 					(reference "#PWR055")
+=======
+					(reference "U5")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
@@ -956,6 +1039,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "power:+3V3")
 		(at 123.19 62.23 0)
 		(unit 1)
@@ -1211,6 +1295,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "power:GNDREF")
 		(at 123.19 93.98 0)
 		(unit 1)
@@ -1220,8 +1306,13 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+<<<<<<< Updated upstream
 		(uuid "e462be82-7997-4394-89c0-ca1d66fba567")
 		(property "Reference" "#PWR054"
+=======
+		(uuid "940db0bb-28e8-4033-abc0-700f5fa9b507")
+		(property "Reference" "#PWR046"
+>>>>>>> Stashed changes
 			(at 123.19 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -1233,7 +1324,11 @@
 			)
 		)
 		(property "Value" "GND"
+<<<<<<< Updated upstream
 			(at 123.19 98.298 0)
+=======
+			(at 123.19 97.79 0)
+>>>>>>> Stashed changes
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1276,20 +1371,33 @@
 			)
 		)
 		(pin "1"
+<<<<<<< Updated upstream
 			(uuid "37fcf66c-345f-4f60-b71f-ad330eb212c8")
+=======
+			(uuid "0a16cc7a-2bc6-456c-aeb7-1bf9640dbf87")
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/f279548b-ece9-4652-a394-a07c8e217d6e"
+<<<<<<< Updated upstream
 					(reference "#PWR054")
+=======
+					(reference "#PWR046")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "power:+3V3")
 		(at 148.59 62.23 0)
+=======
+		(lib_id "power:GNDREF")
+		(at 179.07 93.98 0)
+>>>>>>> Stashed changes
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1297,10 +1405,16 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+<<<<<<< Updated upstream
 		(fields_autoplaced yes)
 		(uuid "f273649f-7470-4176-8b6d-ef0d614cdd81")
 		(property "Reference" "#PWR052"
 			(at 148.59 66.04 0)
+=======
+		(uuid "aa7fe384-2360-4fbc-9abf-86cabbb81203")
+		(property "Reference" "#PWR048"
+			(at 179.07 100.33 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1310,8 +1424,13 @@
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Value" "+3V3"
 			(at 148.59 57.15 0)
+=======
+		(property "Value" "GND"
+			(at 179.07 97.79 0)
+>>>>>>> Stashed changes
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1320,8 +1439,13 @@
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
 			(at 148.59 62.23 0)
+=======
+		(property "Footprint" ""
+			(at 179.07 93.98 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1332,7 +1456,11 @@
 			)
 		)
 		(property "Datasheet" ""
+<<<<<<< Updated upstream
 			(at 148.59 62.23 0)
+=======
+			(at 179.07 93.98 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1342,8 +1470,13 @@
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 148.59 62.23 0)
+=======
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 179.07 93.98 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1354,12 +1487,197 @@
 			)
 		)
 		(pin "1"
+<<<<<<< Updated upstream
 			(uuid "a5333451-bf0f-4dbe-abab-96897b036f71")
+=======
+			(uuid "2a1d851e-7081-4cb5-ad9c-d8c68fb1abe8")
+>>>>>>> Stashed changes
 		)
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/f279548b-ece9-4652-a394-a07c8e217d6e"
+<<<<<<< Updated upstream
 					(reference "#PWR052")
+=======
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 151.13 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6e69a31-ef58-47b7-a04e-e08c0de11b65")
+		(property "Reference" "#PWR047"
+			(at 151.13 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 151.13 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "698ae26a-7596-449d-9aa1-28fa1098c7ed")
+		)
+		(instances
+			(project "ESC_PLC"
+				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/f279548b-ece9-4652-a394-a07c8e217d6e"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_FET:MIC4604YM")
+		(at 151.13 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f490b742-4122-4b86-8033-087a61271c9b")
+		(property "Reference" "U4"
+			(at 153.2733 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MIC4604YM"
+			(at 153.2733 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 148.59 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005852A.pdf"
+			(at 151.13 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "85V Half-Bridge MOSFET Driver with up to 16V Programmable Gate Drive, SOIC-8"
+			(at 151.13 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "c08f20b3-f694-4a87-a9b9-995d35e71a70")
+		)
+		(pin "1"
+			(uuid "9f47f3a4-42b9-4075-ad4c-4ead5fd08222")
+		)
+		(pin "2"
+			(uuid "f1a46467-8359-4a14-b06a-0fa17d48727d")
+		)
+		(pin "6"
+			(uuid "fdcd144f-3369-4aa5-beeb-c9998907eef3")
+		)
+		(pin "5"
+			(uuid "0827dce0-f319-4da8-8571-f470305169a8")
+		)
+		(pin "3"
+			(uuid "7d1d6f05-30d5-4244-a6a1-7294aed5a909")
+		)
+		(pin "8"
+			(uuid "4a4b8612-bd4f-4b56-95da-111a61d0ad50")
+		)
+		(pin "4"
+			(uuid "4f9306a0-911a-4fdf-90a9-b387f61c9337")
+		)
+		(instances
+			(project "ESC_PLC"
+				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/f279548b-ece9-4652-a394-a07c8e217d6e"
+					(reference "U4")
+>>>>>>> Stashed changes
 					(unit 1)
 				)
 			)
