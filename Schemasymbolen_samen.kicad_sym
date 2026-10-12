@@ -161,7 +161,7 @@
 				)
 			)
 			(pin input line
-				(at 3.81 -6.31 90)
+				(at 3.81 -6.35 90)
 				(length 2.5)
 				(name "GND"
 					(effects
@@ -170,7 +170,26 @@
 						)
 					)
 				)
-				(number "3,4"
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 3.81 -6.31 90)
+				(length 2.5)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1 1)

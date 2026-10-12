@@ -1,0 +1,147 @@
+(footprint "MagI3C Power Module 171013201"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "U"
+		(at -1.75 -2.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cd9633f6-2705-404c-8675-55b6260f8ccb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "12->3.3_Buck-Converter"
+		(at 0 -4.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "af912829-0be7-49c7-ab6b-c9fd09395f1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.we-online.com/components/products/datasheet/171013201.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3e1e407-ce07-46a1-83eb-7f9f4f541d67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "buck converter voor 12V -> 3.3V"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "268dac48-2fc8-4478-8a76-8e3f69360c3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start 0 0)
+		(end 4 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ad0ac93e-476c-4d28-803c-516d3aa9bb85")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 4 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e5ed781f-cbd6-4a08-9d27-f36c97e0ece1")
+	)
+	(pad "1" smd rect
+		(at 0.4 0.4)
+		(size 0.79 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d2c9a089-5a37-459c-afee-b00b6c921104")
+	)
+	(pad "2" smd rect
+		(at 0.4 1)
+		(size 0.79 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6288d406-ed35-4777-8f67-570b178c6e23")
+	)
+	(pad "3" smd rect
+		(at 0.4 1.6)
+		(size 0.79 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ca7dbf2d-3fdc-4fcc-acab-4edbe9f48656")
+	)
+	(pad "4" smd rect
+		(at 0.4 2.2)
+		(size 0.79 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2b6e636d-2d5f-40fd-beb0-5a4f9fc22a3b")
+	)
+	(pad "5" smd rect
+		(at 0.4 2.8)
+		(size 0.79 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "714664a2-5309-49dc-90ca-d84ee317ac6b")
+	)
+	(pad "6" smd rect
+		(at 3.6 2.8)
+		(size 0.79 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1767bb4f-d02e-4251-8976-bb5370f12872")
+	)
+	(pad "7" smd rect
+		(at 3.6 2.2)
+		(size 0.79 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "663fff1d-f96b-4631-9b7e-88c2d9f4946e")
+	)
+	(pad "8" smd rect
+		(at 3.6 1.6)
+		(size 0.79 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6e13ff62-e884-416c-a9f2-c8126ff4216c")
+	)
+	(pad "9" smd rect
+		(at 3.6 1)
+		(size 0.79 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "93fbafbe-b2b0-4f8c-a888-b42884642400")
+	)
+	(pad "10" smd rect
+		(at 3.6 0.4)
+		(size 0.79 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "46daaccf-bf84-4d0d-8132-ed599dcf47eb")
+	)
+	(pad "11" smd rect
+		(at 2 1.6)
+		(size 0.7 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6ca0bd90-a900-4cc4-a19a-ee7df92bb193")
+	)
+	(embedded_fonts no)
+)

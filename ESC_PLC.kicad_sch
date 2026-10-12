@@ -252,6 +252,52 @@
 		)
 	)
 	(sheet
+		(at 53.594 61.976)
+		(size 47.752 26.924)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c50f13d1-0d95-480d-a6e3-02f0cf46757c")
+		(property "Sheetname" "Power Sheet"
+			(at 53.594 61.2644 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 53.594 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESC_PLC"
+				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 154.94 140.462)
 		(size 49.53 36.068)
 		(exclude_from_sim no)
