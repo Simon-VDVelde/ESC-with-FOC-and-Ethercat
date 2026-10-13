@@ -250,4 +250,314 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "nog 6 n channel mosfets en 3 shunt weerstanden\n"
+		(exclude_from_sim no)
+		(at 148.082 63.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d80c7f36-14cd-47f4-ae5c-0cd49170332e")
+	)
+	(symbol
+		(lib_id "Driver_FET:MIC4604YM")
+		(at 152.4 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "920c7dd7-d564-4338-99d0-3cdca194bfed")
+		(property "Reference" "U5"
+			(at 154.5433 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MIC4604YM"
+			(at 154.5433 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 149.86 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005852A.pdf"
+			(at 152.4 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "85V Half-Bridge MOSFET Driver with up to 16V Programmable Gate Drive, SOIC-8"
+			(at 152.4 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "2cc7e073-6664-47ea-9633-aeedbd6a6f8e")
+		)
+		(pin "4"
+			(uuid "b46f809b-2942-4220-aecc-2338520d8caf")
+		)
+		(pin "2"
+			(uuid "7db48957-91f5-46c6-a705-5fb8ea83a656")
+		)
+		(pin "7"
+			(uuid "9a5e59e8-053a-4cba-b19a-3dbecd0d0a7c")
+		)
+		(pin "3"
+			(uuid "c42dfe50-5be8-4b4c-b01a-41970098e24c")
+		)
+		(pin "8"
+			(uuid "0491aa0e-2747-4c60-b668-65cdeb0aa4e4")
+		)
+		(pin "1"
+			(uuid "238eb35e-e871-4c51-bbb6-aa54b7f78fd0")
+		)
+		(pin "5"
+			(uuid "1489545f-3f2a-48a0-a1b5-6144f0749965")
+		)
+		(instances
+			(project "ESC_PLC"
+				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/f279548b-ece9-4652-a394-a07c8e217d6e"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_FET:MIC4604YM")
+		(at 175.26 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e25d0e61-0dfe-48af-8266-a2423ef86f2d")
+		(property "Reference" "U7"
+			(at 177.4033 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MIC4604YM"
+			(at 177.4033 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 172.72 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005852A.pdf"
+			(at 175.26 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "85V Half-Bridge MOSFET Driver with up to 16V Programmable Gate Drive, SOIC-8"
+			(at 175.26 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "1a9a71da-e81b-4b79-a6b5-3d45eb9243f5")
+		)
+		(pin "4"
+			(uuid "a260da46-7349-4a3e-96c9-2ad7161b60a9")
+		)
+		(pin "2"
+			(uuid "27eae77c-eefe-4b83-96a3-fddee5ce693c")
+		)
+		(pin "7"
+			(uuid "d9557bf6-da01-4569-90ce-0aa480a99ece")
+		)
+		(pin "3"
+			(uuid "06d2b502-7957-4916-bac0-9fcbd9f4999e")
+		)
+		(pin "8"
+			(uuid "410500ac-38d8-4f28-a19e-503da9055551")
+		)
+		(pin "1"
+			(uuid "717b9318-5165-493d-81d8-2ced70c201cc")
+		)
+		(pin "5"
+			(uuid "df03750a-5a6d-48ab-baf4-582b4af58b00")
+		)
+		(instances
+			(project "ESC_PLC"
+				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/f279548b-ece9-4652-a394-a07c8e217d6e"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_FET:MIC4604YM")
+		(at 125.73 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e74f7a1f-7813-4d67-9218-b928830c5e33")
+		(property "Reference" "U4"
+			(at 127.8733 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MIC4604YM"
+			(at 127.8733 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 123.19 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005852A.pdf"
+			(at 125.73 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "85V Half-Bridge MOSFET Driver with up to 16V Programmable Gate Drive, SOIC-8"
+			(at 125.73 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "18f11fef-5fb6-48f3-b313-550fd6e99da0")
+		)
+		(pin "4"
+			(uuid "74f59608-5a8b-42c2-a2e2-e824ba6d1619")
+		)
+		(pin "2"
+			(uuid "cb75f64e-4b6d-4cd1-b80d-2606b0d9d73a")
+		)
+		(pin "7"
+			(uuid "3363266a-f75b-406e-ac4f-9aab4620ca10")
+		)
+		(pin "3"
+			(uuid "4243690e-8fa3-4b16-bfae-9ed3421500d7")
+		)
+		(pin "8"
+			(uuid "f86d3825-7d14-445c-ba27-6cf4d87a2377")
+		)
+		(pin "1"
+			(uuid "848c0faa-0951-4bdd-942f-1f7281d920de")
+		)
+		(pin "5"
+			(uuid "a7463d5e-6690-41b7-8dba-3b0042ff4459")
+		)
+		(instances
+			(project "ESC_PLC"
+				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/f279548b-ece9-4652-a394-a07c8e217d6e"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
