@@ -3079,6 +3079,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 143.51) (xy 157.48 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ac7d32-5533-42a5-92f0-db3bdedbd910")
+	)
+	(wire
+		(pts
 			(xy 154.94 97.79) (xy 157.48 97.79)
 		)
 		(stroke
@@ -3119,6 +3129,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 130.81) (xy 157.48 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "348a9ca9-d561-4cf3-9cf1-94f6b5a9be9a")
+	)
+	(wire
+		(pts
 			(xy 90.17 62.23) (xy 96.52 62.23)
 		)
 		(stroke
@@ -3126,6 +3146,16 @@
 			(type default)
 		)
 		(uuid "377b6cea-7e2d-43cd-95b7-9bd522319074")
+	)
+	(wire
+		(pts
+			(xy 154.94 125.73) (xy 157.48 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b858ba8-a987-4fa2-a6cd-f790af82a96d")
 	)
 	(wire
 		(pts
@@ -3189,6 +3219,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 113.03) (xy 157.48 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5905c8cd-9ff1-47b8-b504-d7ac477c5c7a")
+	)
+	(wire
+		(pts
 			(xy 130.81 186.69) (xy 130.81 189.23)
 		)
 		(stroke
@@ -3206,6 +3246,16 @@
 			(type default)
 		)
 		(uuid "5d7ad56d-1a6d-417a-b7e2-34a9c89c631d")
+	)
+	(wire
+		(pts
+			(xy 105.41 85.09) (xy 109.22 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61dff6f5-72fa-4d3a-8315-4024f5fe21e6")
 	)
 	(wire
 		(pts
@@ -3236,6 +3286,16 @@
 			(type default)
 		)
 		(uuid "721cef1a-f447-4939-8319-fcfede6d4804")
+	)
+	(wire
+		(pts
+			(xy 154.94 115.57) (xy 157.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740b489e-3446-4dca-af13-a5bfce286cc5")
 	)
 	(wire
 		(pts
@@ -3359,6 +3419,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 92.71) (xy 109.22 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a363136e-c530-4d25-b843-44c5b21ff80b")
+	)
+	(wire
+		(pts
 			(xy 90.17 60.96) (xy 90.17 62.23)
 		)
 		(stroke
@@ -3396,6 +3466,16 @@
 			(type default)
 		)
 		(uuid "ae08e478-03e6-418c-aedf-b895e558005b")
+	)
+	(wire
+		(pts
+			(xy 154.94 123.19) (xy 157.48 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b473be1b-ae65-4396-ad04-a4c6f6016760")
 	)
 	(wire
 		(pts
@@ -3439,6 +3519,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 110.49) (xy 157.48 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd185f3c-9a91-468e-868d-c4eab99dea16")
+	)
+	(wire
+		(pts
 			(xy 154.305 35.56) (xy 160.655 35.56)
 		)
 		(stroke
@@ -3469,6 +3559,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 140.97) (xy 157.48 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c1f84c-e431-4b5e-b144-389c2aecf5cb")
+	)
+	(wire
+		(pts
 			(xy 154.94 69.85) (xy 157.48 69.85)
 		)
 		(stroke
@@ -3496,6 +3596,16 @@
 			(type default)
 		)
 		(uuid "ccdfffd8-9c72-4d35-b914-f7420f80acc4")
+	)
+	(wire
+		(pts
+			(xy 154.94 128.27) (xy 157.48 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6e0d39-a7e3-403c-80a7-e13067c4a3f6")
 	)
 	(wire
 		(pts
@@ -3599,6 +3709,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 138.43) (xy 157.48 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f170b6fc-6fff-4ec9-8868-0bd2017a1956")
+	)
+	(wire
+		(pts
 			(xy 183.515 35.56) (xy 188.595 35.56)
 		)
 		(stroke
@@ -3637,6 +3757,17 @@
 		)
 		(uuid "d9a1dc77-2fee-48be-8018-73624e0b21ba")
 	)
+	(hierarchical_label "Motor_V_HI"
+		(shape output)
+		(at 157.48 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0393d5d7-c1f2-4abc-ae6a-08e3bbf50f04")
+	)
 	(hierarchical_label "QSPI_CS#"
 		(shape output)
 		(at 157.48 57.15 0)
@@ -3658,6 +3789,28 @@
 			(justify left)
 		)
 		(uuid "2167f4c8-bac9-4a18-a5c9-e863ad75aaf0")
+	)
+	(hierarchical_label "Motor_W_LI"
+		(shape output)
+		(at 105.41 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29cb7108-d11f-4b71-a716-747244a5ab7c")
+	)
+	(hierarchical_label "Motor_Shunt_U"
+		(shape input)
+		(at 157.48 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b0ac018-3568-4ded-90e0-1cc0bd78001a")
 	)
 	(hierarchical_label "QSPI_IO3"
 		(shape bidirectional)
@@ -3681,6 +3834,17 @@
 		)
 		(uuid "355366c3-32e0-4fe8-8e52-11f3c3700990")
 	)
+	(hierarchical_label "Motor_U_HI"
+		(shape output)
+		(at 157.48 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "388b0b3e-0968-4a8c-8c53-b2543cd5f537")
+	)
 	(hierarchical_label "CAN_SHDN"
 		(shape output)
 		(at 158.75 87.63 0)
@@ -3691,6 +3855,17 @@
 			(justify left)
 		)
 		(uuid "3f72bb9c-f868-445a-9db8-90914cb3ed70")
+	)
+	(hierarchical_label "Motor_W_HI"
+		(shape output)
+		(at 157.48 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51f746c2-ebdc-4c67-a62d-ea5355d3765b")
 	)
 	(hierarchical_label "QSPI_IO2"
 		(shape bidirectional)
@@ -3714,6 +3889,17 @@
 		)
 		(uuid "53394943-62d4-4004-9eb6-f1e1d2f89be4")
 	)
+	(hierarchical_label "Motor_Hall_W"
+		(shape input)
+		(at 157.48 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "573a1db5-85e2-4cbc-a32f-f66a6f4ad5d6")
+	)
 	(hierarchical_label "QSPI_IO0"
 		(shape bidirectional)
 		(at 157.48 97.79 0)
@@ -3724,6 +3910,39 @@
 			(justify left)
 		)
 		(uuid "69a98230-d30c-4fbc-afb5-7df214bb82cd")
+	)
+	(hierarchical_label "Motor_U_LI"
+		(shape output)
+		(at 105.41 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b8b2c29-96da-4869-90fc-e09b947d3782")
+	)
+	(hierarchical_label "Motor_Hall_U"
+		(shape input)
+		(at 157.48 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99806432-7051-49b6-bd95-9fc4daff20ce")
+	)
+	(hierarchical_label "Motor_Shunt_W"
+		(shape input)
+		(at 157.48 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a564611b-b617-46e3-84b6-9433805815de")
 	)
 	(hierarchical_label "CAN_RX"
 		(shape input)
@@ -3736,6 +3955,28 @@
 		)
 		(uuid "a804b3a2-38f8-4dfc-a276-d40d0c104c7d")
 	)
+	(hierarchical_label "Motor_V_LI"
+		(shape output)
+		(at 157.48 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad280e88-7552-4812-b154-dd090cf0c3ce")
+	)
+	(hierarchical_label "Motor_Hall_V"
+		(shape input)
+		(at 157.48 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b098c968-97fe-4eb4-b222-b31ac44b9823")
+	)
 	(hierarchical_label "CAN_TX"
 		(shape output)
 		(at 158.75 82.55 0)
@@ -3746,6 +3987,17 @@
 			(justify left)
 		)
 		(uuid "ce985a1f-85c9-48c7-b0cb-436d02a9a6bf")
+	)
+	(hierarchical_label "Motor_Shunt_V"
+		(shape input)
+		(at 157.48 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcf099dc-c4a5-4a42-94a3-5ccc0462c66a")
 	)
 	(symbol
 		(lib_id "Device:C")
