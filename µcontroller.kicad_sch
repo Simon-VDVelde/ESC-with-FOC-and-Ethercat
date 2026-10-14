@@ -5,153 +5,6 @@
 	(uuid "63a04601-2917-45c6-8027-04713ace0e68")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Condensator_Polarized:RSCVS1043R6G08012T"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.508 0.254 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0.1F"
-				(at -1.016 -1.778 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Condensator_Polarized:RSCVS1043R6G08012T"
-				(at -6.858 13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2517/DVS%20Series.pdf"
-				(at 10.16 11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "0.1F 3.6V"
-				(at -5.588 9.144 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RSCVS1043R6G08012T_0_1"
-				(rectangle
-					(start 1.524 1.016)
-					(end 6.096 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 2.032) (xy 5.588 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 6.096 -0.508)
-					(end 1.524 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "RSCVS1043R6G08012T_1_1"
-				(pin passive line
-					(at 3.81 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2588,6 +2441,153 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Schemasymbolen_samen:SuperCap_0.1F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 3.302 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0.1F"
+				(at 4.826 -0.762 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Footprintsymbolen_samen:SuperCap 0.1F 10.5mmx10.8mm"
+				(at 0.508 11.938 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SuperCap_0.1F_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 1.778 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.794) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SuperCap_0.1F_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -3049,6 +3049,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 133.35) (xy 157.48 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03bfbc28-4341-450b-a713-382f918de4e8")
+	)
+	(wire
+		(pts
 			(xy 142.24 35.56) (xy 148.59 35.56)
 		)
 		(stroke
@@ -3139,6 +3149,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 54.61) (xy 157.48 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37722430-fe81-44f5-b8ad-b06c996bac92")
+	)
+	(wire
+		(pts
 			(xy 90.17 62.23) (xy 96.52 62.23)
 		)
 		(stroke
@@ -3149,16 +3169,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 125.73) (xy 157.48 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b858ba8-a987-4fa2-a6cd-f790af82a96d")
-	)
-	(wire
-		(pts
 			(xy 96.52 52.07) (xy 96.52 53.34)
 		)
 		(stroke
@@ -3166,6 +3176,16 @@
 			(type default)
 		)
 		(uuid "3dc97ab0-76e0-4ef4-9eed-e045a39f303a")
+	)
+	(wire
+		(pts
+			(xy 154.94 125.73) (xy 157.48 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47cc7b7f-1285-40ed-a11c-85ebfae7d3ab")
 	)
 	(wire
 		(pts
@@ -3249,16 +3269,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 85.09) (xy 109.22 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61dff6f5-72fa-4d3a-8315-4024f5fe21e6")
-	)
-	(wire
-		(pts
 			(xy 188.595 35.56) (xy 194.945 35.56)
 		)
 		(stroke
@@ -3306,6 +3316,16 @@
 			(type default)
 		)
 		(uuid "75affa81-b3c8-45bf-8daa-5529071756a7")
+	)
+	(wire
+		(pts
+			(xy 154.94 123.19) (xy 157.48 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76da61d6-a5a7-43a1-8850-b6dd7f934aa4")
 	)
 	(wire
 		(pts
@@ -3419,16 +3439,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 92.71) (xy 109.22 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a363136e-c530-4d25-b843-44c5b21ff80b")
-	)
-	(wire
-		(pts
 			(xy 90.17 60.96) (xy 90.17 62.23)
 		)
 		(stroke
@@ -3466,16 +3476,6 @@
 			(type default)
 		)
 		(uuid "ae08e478-03e6-418c-aedf-b895e558005b")
-	)
-	(wire
-		(pts
-			(xy 154.94 123.19) (xy 157.48 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b473be1b-ae65-4396-ad04-a4c6f6016760")
 	)
 	(wire
 		(pts
@@ -3599,16 +3599,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 128.27) (xy 157.48 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf6e0d39-a7e3-403c-80a7-e13067c4a3f6")
-	)
-	(wire
-		(pts
 			(xy 148.59 35.56) (xy 154.305 35.56)
 		)
 		(stroke
@@ -3646,6 +3636,16 @@
 			(type default)
 		)
 		(uuid "d66e71a1-5cb8-403a-aea2-fb8dd91b5fad")
+	)
+	(wire
+		(pts
+			(xy 154.94 128.27) (xy 157.48 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7ca66ca-34d5-4194-b870-b479efe0192b")
 	)
 	(wire
 		(pts
@@ -3792,18 +3792,18 @@
 	)
 	(hierarchical_label "Motor_W_LI"
 		(shape output)
-		(at 105.41 92.71 180)
+		(at 157.48 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "29cb7108-d11f-4b71-a716-747244a5ab7c")
 	)
 	(hierarchical_label "Motor_Shunt_U"
 		(shape input)
-		(at 157.48 123.19 0)
+		(at 157.48 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3913,12 +3913,12 @@
 	)
 	(hierarchical_label "Motor_U_LI"
 		(shape output)
-		(at 105.41 85.09 180)
+		(at 157.48 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "8b8b2c29-96da-4869-90fc-e09b947d3782")
 	)
@@ -3935,7 +3935,7 @@
 	)
 	(hierarchical_label "Motor_Shunt_W"
 		(shape input)
-		(at 157.48 128.27 0)
+		(at 157.48 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3990,7 +3990,7 @@
 	)
 	(hierarchical_label "Motor_Shunt_V"
 		(shape input)
-		(at 157.48 125.73 0)
+		(at 157.48 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4010,7 +4010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d3324b6-63ff-4ca6-bb94-67a37368f158")
-		(property "Reference" "C2"
+		(property "Reference" "C5"
 			(at 149.098 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4074,7 +4074,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "C2")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4091,7 +4091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19fed35e-f7dc-4ae6-89b4-1f048f11b0a9")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 177.673 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4155,7 +4155,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "C8")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4172,7 +4172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "232d0d93-15f6-4bec-9350-9c85943a13d0")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 166.243 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4236,7 +4236,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -4253,7 +4253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39c5b7dc-5f43-47fe-ae24-95dcbef1bb1d")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 171.958 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4317,7 +4317,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4334,7 +4334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44cd728d-1fbb-4537-a84e-ac95d16323d9")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR02"
 			(at 119.38 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -4394,7 +4394,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "#PWR045")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4411,7 +4411,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4df1a3c4-5c79-44fa-91b4-8282a2dc69bb")
-		(property "Reference" "C44"
+		(property "Reference" "C14"
 			(at 201.168 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4475,7 +4475,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "C44")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -4492,7 +4492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "57574326-d006-4e18-91fa-421a4f3c60bf")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 161.163 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4556,7 +4556,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "C4")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4573,7 +4573,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f5f701f-d796-4c49-9137-6097bc2eab1f")
-		(property "Reference" "C42"
+		(property "Reference" "C12"
 			(at 189.103 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4637,7 +4637,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "C42")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4654,7 +4654,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75e037c7-1a21-4e87-9442-f778349d19b1")
-		(property "Reference" "C7"
+		(property "Reference" "C2"
 			(at 97.028 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4718,7 +4718,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "C7")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4735,7 +4735,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "765a51bc-c4a2-4129-b1f4-fd79d215211c")
-		(property "Reference" "C1"
+		(property "Reference" "C4"
 			(at 142.748 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4799,15 +4799,15 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "C1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Condensator_Polarized:RSCVS1043R6G08012T")
-		(at 115.57 35.56 0)
+		(lib_id "Schemasymbolen_samen:SuperCap_0.1F")
+		(at 119.38 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4815,9 +4815,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "88e6333f-843b-47a2-8509-8896ea209f64")
-		(property "Reference" "C47"
-			(at 112.268 34.544 0)
+		(uuid "860ba369-3e22-42cd-aa51-b54e7a18956c")
+		(property "Reference" "C3"
+			(at 113.792 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4827,19 +4827,18 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1F"
-			(at 112.268 37.084 0)
+		(property "Value" ""
+			(at 119.38 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Condensator_Polarized:RSCVS1043R6G08012T"
-			(at 108.712 21.59 0)
+		(property "Footprint" "Footprintsymbolen_samen:SuperCap 0.1F 10.5mmx10.8mm"
+			(at 119.888 23.622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4849,8 +4848,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2517/DVS%20Series.pdf"
-			(at 125.73 23.876 0)
+		(property "Datasheet" "https://www.mouser.be/datasheet/3/72/1/FC0V104ZFTBR24.pdf"
+			(at 119.38 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4860,8 +4859,8 @@
 				)
 			)
 		)
-		(property "Description" "0.1F 3.6V"
-			(at 109.982 26.416 0)
+		(property "Description" "FC0V104ZFTBR24"
+			(at 119.38 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4870,17 +4869,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "2782d673-ca61-4652-9e27-8e7490e30906")
 		)
 		(pin "1"
-			(uuid "225c4e49-c433-4dcf-9ba2-168b64c63d93")
+			(uuid "4889df98-850f-4fdb-94b1-a0401063fe5d")
+		)
+		(pin "2"
+			(uuid "ad9c7dd8-994b-4ad6-853b-dcf539de8240")
 		)
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "C47")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4898,7 +4897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "938621c0-23b1-4ea5-b02c-7e3fbfaea665")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 200.66 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4958,7 +4957,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4975,7 +4974,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cadef56-960e-4f1b-a624-b8f5d4a0d0a1")
-		(property "Reference" "C43"
+		(property "Reference" "C13"
 			(at 195.453 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5039,7 +5038,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "C43")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5057,7 +5056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b076b1f2-6b77-4631-a657-e2278f32c9a6")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 200.66 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5117,7 +5116,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5212,7 +5211,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d1676ea7-f7c0-463f-8c2e-6b052bd80375")
-		(property "Reference" "C46"
+		(property "Reference" "C1"
 			(at 90.678 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5276,7 +5275,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "C46")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5294,7 +5293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4de3223-28c1-4c10-a090-4956af8ce0bf")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR01"
 			(at 96.52 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5354,7 +5353,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -5372,7 +5371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8e6c550-2058-4939-b541-02bcce6031f4")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 136.7633 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5394,7 +5393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "STM32G4:STM32G474"
+		(property "Footprint" "Footprintsymbolen_samen:STM32G474"
 			(at 114.3 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -5671,7 +5670,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -5688,7 +5687,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4add54b-d50c-4c77-a6ad-81c1f121644d")
-		(property "Reference" "C41"
+		(property "Reference" "C11"
 			(at 184.023 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5752,7 +5751,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "C41")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5769,7 +5768,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbaf4969-b374-4aeb-bfc4-c61b7df3fb9f")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 154.813 37.338 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5833,7 +5832,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/a6d32774-551f-4954-9dad-bb2886d10882"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)

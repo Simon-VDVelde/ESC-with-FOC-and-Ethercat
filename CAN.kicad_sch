@@ -1350,7 +1350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03f034b7-670a-4680-8690-621728559e8c")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR069"
 			(at 95.885 97.155 0)
 			(hide yes)
 			(show_name no)
@@ -1410,7 +1410,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/fe40b710-6ad0-4f5f-80cc-5572b327525f"
-					(reference "#PWR070")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -1427,7 +1427,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05c20b5d-e696-40ba-9b14-e3bb97581c23")
-		(property "Reference" "C61"
+		(property "Reference" "C57"
 			(at 96.393 83.058 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1491,7 +1491,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/fe40b710-6ad0-4f5f-80cc-5572b327525f"
-					(reference "C61")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -1607,7 +1607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "128e3c13-c860-464d-8eae-84e648fa588a")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR068"
 			(at 89.535 97.155 0)
 			(hide yes)
 			(show_name no)
@@ -1667,7 +1667,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/fe40b710-6ad0-4f5f-80cc-5572b327525f"
-					(reference "#PWR071")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -1685,7 +1685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2139e7b0-0f5a-4d29-91a8-cecf78fcab21")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR070"
 			(at 102.87 90.805 0)
 			(hide yes)
 			(show_name no)
@@ -1745,7 +1745,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/fe40b710-6ad0-4f5f-80cc-5572b327525f"
-					(reference "#PWR047")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -1762,7 +1762,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cc5c041-83ed-4b0b-b375-16e9568d8256")
-		(property "Reference" "R12"
+		(property "Reference" "R24"
 			(at 176.784 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1784,7 +1784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.482 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -1826,7 +1826,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/fe40b710-6ad0-4f5f-80cc-5572b327525f"
-					(reference "R12")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -1844,7 +1844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73adb0cf-eb59-43ce-8227-682badcbe070")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR071"
 			(at 190.5 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -1904,7 +1904,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/fe40b710-6ad0-4f5f-80cc-5572b327525f"
-					(reference "#PWR049")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -1922,7 +1922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75f1ca14-85a7-48d2-99b3-ad6263f534f2")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR067"
 			(at 87.63 78.105 0)
 			(hide yes)
 			(show_name no)
@@ -1982,7 +1982,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/fe40b710-6ad0-4f5f-80cc-5572b327525f"
-					(reference "#PWR048")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1999,7 +1999,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77435889-0753-4699-a68d-b70b6a77397a")
-		(property "Reference" "C48"
+		(property "Reference" "C56"
 			(at 90.043 83.693 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2063,7 +2063,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/fe40b710-6ad0-4f5f-80cc-5572b327525f"
-					(reference "C48")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -2080,7 +2080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea516954-c4ce-4f01-864a-3bcf212469c1")
-		(property "Reference" "C45"
+		(property "Reference" "C58"
 			(at 185.928 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2102,7 +2102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "EEPROM:579-24LC32AFT-ISN"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 187.96 77.7748 0)
 			(hide yes)
 			(show_name no)
@@ -2144,7 +2144,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/fe40b710-6ad0-4f5f-80cc-5572b327525f"
-					(reference "C45")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -2161,7 +2161,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef9da7de-df82-44d2-b22e-04552385d6ed")
-		(property "Reference" "R11"
+		(property "Reference" "R23"
 			(at 176.784 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2183,7 +2183,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.482 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -2225,7 +2225,7 @@
 		(instances
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/fe40b710-6ad0-4f5f-80cc-5572b327525f"
-					(reference "R11")
+					(reference "R23")
 					(unit 1)
 				)
 			)

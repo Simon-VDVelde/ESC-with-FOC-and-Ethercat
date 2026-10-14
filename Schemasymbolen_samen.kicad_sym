@@ -256,7 +256,7 @@
 			(pin passive line
 				(at 0 -1.27 0)
 				(length 1.27)
-				(name "1"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -272,24 +272,6 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -1.27 180)
-				(length 1.27)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at 3.81 -6.35 90)
 				(length 2.5)
 				(name "GND"
@@ -299,7 +281,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "2"
 					(effects
 						(font
 							(size 1 1)
@@ -307,7 +289,25 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
+				(at 7.62 -1.27 180)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 3.81 -6.31 90)
 				(length 2.5)
 				(hide yes)
@@ -585,7 +585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprintsymbolen_samen:LAN9252"
+		(property "Footprint" "Package_QFP:TQFP-64-1EP_10x10mm_P0.5mm_EP5.305x5.305mm_ThermalVias"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4601,6 +4601,153 @@
 			)
 			(pin passive line
 				(at 3.81 -3.81 90)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SuperCap_0.1F"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "C"
+			(at 3.302 1.016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1F"
+			(at 4.826 -0.762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprintsymbolen_samen:SuperCap 0.1F 10.5mmx10.8mm"
+			(at 0.508 11.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SuperCap_0.1F_0_1"
+			(rectangle
+				(start -2.286 0.508)
+				(end 2.286 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.286) (xy 1.778 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 2.794) (xy 1.27 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 2.286 -0.508)
+				(end -2.286 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "SuperCap_0.1F_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.794)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
 				(length 2.794)
 				(name ""
 					(effects
