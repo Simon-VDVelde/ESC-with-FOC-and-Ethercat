@@ -9672,10 +9672,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "53637853-cd52-4c6b-822c-e9e8867ec939")
 		(property "Reference" "Y1"
-			(at 274.32 181.61 0)
+			(at 273.05 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9684,9 +9683,8 @@
 				)
 			)
 		)
-		(property "Value" "LFXTAL085880"
-			(at 261.874 177.8 0)
-			(hide yes)
+		(property "Value" "25Mhz"
+			(at 278.511 182.626 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9717,7 +9715,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LFXTAL085880"
 			(at 270.51 185.42 0)
 			(hide yes)
 			(show_name no)
