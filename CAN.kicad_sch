@@ -300,6 +300,286 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power_Protection:NUP2105L"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 5.715 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NUP2105L"
+				(at 5.715 0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.715 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
+				(at 3.175 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual Line CAN Bus Protector, 24Vrwm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "can esd protection suppression transient"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NUP2105L_0_0"
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NUP2105L_0_1"
+				(rectangle
+					(start -4.445 2.54)
+					(end 4.445 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -3.175 0.635) (xy -1.905 0.635) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy -2.54 -1.27) (xy 2.54 -1.27) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy -1.905 -0.635) (xy -3.175 -0.635) (xy -2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.635) (xy -3.175 1.905) (xy -1.905 1.905) (xy -2.54 0.635) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.905 0.635) (xy 2.54 0.635) (xy 3.175 0.635) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 1.905 -0.635) (xy 3.175 -0.635) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.635) (xy 3.175 1.905) (xy 1.905 1.905) (xy 2.54 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NUP2105L_1_1"
+				(pin passive line
+					(at -2.54 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Schemasymbolen_samen:TCAN334GD"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -885,6 +1165,12 @@
 		(uuid "312c005f-dc6d-41d9-8cce-49818c10cf4c")
 	)
 	(junction
+		(at 205.74 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42ae05ff-6c2f-4c5e-ac3f-0d654a467f1b")
+	)
+	(junction
 		(at 175.26 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -903,6 +1189,12 @@
 		(uuid "d66bcadc-ef53-438e-ad3a-350790673e7f")
 	)
 	(junction
+		(at 196.85 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4a9a6a8-6908-44e9-9579-c7b198bf5dc2")
+	)
+	(junction
 		(at 89.535 89.535)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -916,6 +1208,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 81.28) (xy 199.39 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0481dcc5-5bda-453b-ad72-fc38d3384f87")
+	)
+	(wire
+		(pts
 			(xy 87.63 80.01) (xy 89.535 80.01)
 		)
 		(stroke
@@ -923,6 +1225,16 @@
 			(type default)
 		)
 		(uuid "05b9b263-8b69-404b-93b5-30cb5d501d87")
+	)
+	(wire
+		(pts
+			(xy 201.93 69.85) (xy 201.93 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b9e597d-4436-4488-a39f-e27fc0df80c4")
 	)
 	(wire
 		(pts
@@ -1026,6 +1338,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 68.58) (xy 209.55 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66046b04-2e65-457f-93bc-cff8aa67e967")
+	)
+	(wire
+		(pts
 			(xy 175.26 78.74) (xy 180.34 78.74)
 		)
 		(stroke
@@ -1053,6 +1375,46 @@
 			(type default)
 		)
 		(uuid "704a8292-e748-4264-8f75-9e3c82e4960f")
+	)
+	(wire
+		(pts
+			(xy 205.74 69.85) (xy 205.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a003407-d31b-4e34-a59d-bed9672bb6cf")
+	)
+	(wire
+		(pts
+			(xy 205.74 88.9) (xy 209.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b28af57-209c-4f1a-b85f-ef76b01ae1d9")
+	)
+	(wire
+		(pts
+			(xy 196.85 68.58) (xy 196.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b86cf6-fd21-4185-9971-31096bf0e9d2")
+	)
+	(wire
+		(pts
+			(xy 201.93 69.85) (xy 205.74 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a319db5b-487f-4f1d-a7db-50d8a2a59a5e")
 	)
 	(wire
 		(pts
@@ -1146,7 +1508,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 68.58) (xy 186.69 68.58)
+			(xy 175.26 68.58) (xy 196.85 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1176,7 +1538,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 88.9) (xy 186.69 88.9)
+			(xy 175.26 88.9) (xy 205.74 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1235,7 +1597,7 @@
 		(uuid "18dc1eca-3e2c-4cba-a9b1-b27228bd10a5")
 	)
 	(label "CANH"
-		(at 181.61 68.58 0)
+		(at 209.55 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1265,7 +1627,7 @@
 		(uuid "67ea28b0-d4f0-4f1a-94ac-60d6e9d7193b")
 	)
 	(label "CANL"
-		(at 181.61 88.9 0)
+		(at 209.55 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1674,6 +2036,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:NUP2105L")
+		(at 199.39 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2009e1e2-d5c2-440d-a10b-c192534b2117")
+		(property "Reference" "D5"
+			(at 206.502 74.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NUP2105L"
+			(at 206.756 76.454 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 205.105 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub_link/Collateral/NUP2105L-D.PDF"
+			(at 202.565 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual Line CAN Bus Protector, 24Vrwm"
+			(at 199.39 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "305e4baa-e473-45e1-9fd1-3e3a98119306")
+		)
+		(pin "3"
+			(uuid "53c240db-284a-4b52-8ef4-10ce9344d3fc")
+		)
+		(pin "2"
+			(uuid "404129dd-d4c9-4d09-84d5-017eae0531c0")
+		)
+		(instances
+			(project "ESC_PLC"
+				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/fe40b710-6ad0-4f5f-80cc-5572b327525f"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 102.87 84.455 0)
 		(unit 1)
@@ -1842,7 +2289,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "73adb0cf-eb59-43ce-8227-682badcbe070")
 		(property "Reference" "#PWR071"
 			(at 190.5 86.36 0)
@@ -1856,7 +2302,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 85.09 0)
+			(at 190.5 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2064,6 +2510,83 @@
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/fe40b710-6ad0-4f5f-80cc-5572b327525f"
 					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 199.39 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b64c7b3a-5c04-42d7-97e3-8ab436dd49df")
+		(property "Reference" "#PWR0105"
+			(at 199.39 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 86.614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 199.39 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c0c400b-c037-4f78-ab0f-82bb15a1a0b5")
+		)
+		(instances
+			(project "ESC_PLC"
+				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/fe40b710-6ad0-4f5f-80cc-5572b327525f"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)

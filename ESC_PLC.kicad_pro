@@ -510,11 +510,38 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.25,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.3,
+        "name": "Gate_Drivers",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.6,
+        "name": "Power_High",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 5.0,
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.3,
+        "name": "Power_Low",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -522,7 +549,40 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power_High",
+        "pattern": "+48V"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power_High",
+        "pattern": "U_Motor"
+      },
+      {
+        "netclass": "Power_High",
+        "pattern": "V_Motor"
+      },
+      {
+        "netclass": "Power_High",
+        "pattern": "W_Motor"
+      },
+      {
+        "netclass": "Power_Low",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "Power_Low",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power_Low",
+        "pattern": "+3V3"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -665,7 +725,7 @@
         "uuid": "5bd3bb6f-fe53-443c-806c-077e2bbb5d14"
       }
     ],
-    "used_designators": "#PWR1-104,C1-93,D1-4,FB1-6,IC1-3,J1-4,L1-4,Q1-6,R1-28,R_shunt1-4,U1-7,Y1-2",
+    "used_designators": "#PWR1-105,C1-93,D1-5,FB1-6,IC1-3,J1-4,L1-4,Q1-6,R1-28,R_shunt1-4,U1-7,Y1-2",
     "variants": []
   },
   "sheets": [

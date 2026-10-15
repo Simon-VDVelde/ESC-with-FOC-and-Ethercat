@@ -3513,6 +3513,26 @@
 		)
 		(uuid "fed2c8eb-21e8-4bbb-a754-ed0b494dc190")
 	)
+	(label "+12V"
+		(at 152.4 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04ab9251-8a5f-4963-b232-5813fbda4c36")
+	)
+	(label "+48V"
+		(at 36.83 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b2c3ef1-d7cb-4465-908f-35d9bbf1d475")
+	)
 	(label "12To3.3Vin"
 		(at 177.165 53.34 0)
 		(effects
@@ -3522,6 +3542,16 @@
 			(justify left bottom)
 		)
 		(uuid "6c5058af-d1be-4688-b41f-b60698c36881")
+	)
+	(label "+3.3V"
+		(at 231.14 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db5d5622-4408-4348-8404-819b73435281")
 	)
 	(label "12To5Vin"
 		(at 177.165 114.3 0)
@@ -7761,7 +7791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 168.6052 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8555,7 +8585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 168.6052 64.77 0)
 			(hide yes)
 			(show_name no)
