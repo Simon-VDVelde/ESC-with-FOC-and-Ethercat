@@ -4775,7 +4775,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0dda76d0-f965-4e37-986e-c949ab071b00")
 		(property "Reference" "Q5"
 			(at 200.66 31.7499 0)
@@ -4788,8 +4787,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 196.85 31.75 0)
+		(property "Value" "STB100N10F7"
+			(at 207.264 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6224,7 +6223,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b96f284-5ab8-499e-afca-7c094b7d7af2")
 		(property "Reference" "Q2"
 			(at 55.88 48.2599 0)
@@ -6237,8 +6235,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 52.07 48.26 0)
+		(property "Value" "STB100N10F7"
+			(at 62.484 50.419 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6630,7 +6628,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6586c645-70ec-4e6a-b7c4-2aa3bf92b404")
 		(property "Reference" "Q6"
 			(at 200.66 48.2599 0)
@@ -6643,8 +6640,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 196.85 48.26 0)
+		(property "Value" "STB100N10F7"
+			(at 207.264 50.673 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6814,7 +6811,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6c2de5b5-7b85-4256-b344-30199901094e")
 		(property "Reference" "Q4"
 			(at 128.27 48.2599 0)
@@ -6827,8 +6823,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 124.46 48.26 0)
+		(property "Value" "STB100N10F7"
+			(at 135.001 50.292 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7381,7 +7377,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8e9e279d-c79d-4ba8-bada-23545c9bf334")
 		(property "Reference" "Q1"
 			(at 55.88 31.7499 0)
@@ -7394,8 +7389,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 52.07 31.75 0)
+		(property "Value" "STB100N10F7"
+			(at 62.484 33.909 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7698,7 +7693,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "972cb7a5-78e7-41ae-bbc2-ddc0e856169e")
 		(property "Reference" "Q3"
 			(at 128.27 31.7499 0)
@@ -7711,8 +7705,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 124.46 31.75 0)
+		(property "Value" "STB100N10F7"
+			(at 134.874 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
