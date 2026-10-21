@@ -4109,7 +4109,7 @@
 	)
 	(text_box "1µ moet 0.1ohm ESR\n"
 		(exclude_from_sim no)
-		(at 139.573 190.206 0)
+		(at 138.43 192.492 0)
 		(size 9.144 4.358)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -4699,6 +4699,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 172.72) (xy 148.59 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e9875a-55ae-4a5f-8e88-bf904c4d22dd")
+	)
+	(wire
+		(pts
 			(xy 52.07 151.13) (xy 52.07 152.4)
 		)
 		(stroke
@@ -4889,13 +4899,23 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 180.34) (xy 142.24 179.07)
+			(xy 141.605 180.34) (xy 141.605 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "29891d22-c710-4fe1-af8b-61e350c180b8")
+	)
+	(wire
+		(pts
+			(xy 156.21 196.85) (xy 156.21 196.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4e1d4e-fb89-4499-af31-5b666274f92a")
 	)
 	(wire
 		(pts
@@ -5056,6 +5076,16 @@
 			(type default)
 		)
 		(uuid "3b410538-b767-4a20-99b8-9958ec64fbe9")
+	)
+	(wire
+		(pts
+			(xy 148.59 196.85) (xy 156.21 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc5bdf2-364d-4734-9613-57c914178649")
 	)
 	(wire
 		(pts
@@ -6399,7 +6429,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 187.96) (xy 142.24 187.96)
+			(xy 135.89 187.96) (xy 141.605 187.96)
 		)
 		(stroke
 			(width 0)
@@ -6416,6 +6446,16 @@
 			(type default)
 		)
 		(uuid "c60f1c2b-46da-47ce-90ca-92db46f42c48")
+	)
+	(wire
+		(pts
+			(xy 148.59 189.23) (xy 148.59 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7fdb813-e5f0-4186-853a-e4b3c4fb37a4")
 	)
 	(wire
 		(pts
@@ -6449,7 +6489,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 179.07) (xy 142.24 179.07)
+			(xy 135.89 179.07) (xy 141.605 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6816,16 +6856,6 @@
 			(type default)
 		)
 		(uuid "f9e5ae21-a70a-4ed1-a61d-c4673744bfd2")
-	)
-	(wire
-		(pts
-			(xy 148.59 172.72) (xy 148.59 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcbf115d-4381-4b0c-ace9-c16418f3611a")
 	)
 	(wire
 		(pts
@@ -7328,17 +7358,6 @@
 			(justify left)
 		)
 		(uuid "1f7dda0c-7fb0-4592-a95d-7056a2581ec9")
-	)
-	(hierarchical_label "RST#"
-		(shape input)
-		(at 148.59 175.26 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2cd918fc-0122-4641-8597-8e238f69769f")
 	)
 	(hierarchical_label "IRQ"
 		(shape output)
@@ -12287,6 +12306,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 156.21 196.215 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a882e927-a0b7-4286-bddc-7752b61b0f1e")
+		(property "Reference" "#PWR0119"
+			(at 156.21 200.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 156.21 192.151 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-24_W7.62mm"
+			(at 156.21 196.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 196.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 156.21 196.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "85da6ead-cd38-48e3-9c09-ae863056872b")
+		)
+		(instances
+			(project "ESC_PLC"
+				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/f038ea58-2b1a-4d87-b3c8-8d32ce4ec05b"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EEPROM:579-24LC32AFT-I/SN")
 		(at 273.05 144.145 0)
 		(unit 1)
@@ -12694,6 +12790,87 @@
 			(project "ESC_PLC"
 				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/f038ea58-2b1a-4d87-b3c8-8d32ce4ec05b"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b393bce2-639a-4a82-90aa-4813bf6a20f8")
+		(property "Reference" "R34"
+			(at 148.717 189.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 149.098 191.135 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 146.812 185.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "26fca76c-e2aa-4530-9c27-3c512f117849")
+		)
+		(pin "1"
+			(uuid "fa798fdb-7062-410b-ad40-28e4ba520665")
+		)
+		(instances
+			(project "ESC_PLC"
+				(path "/5bd3bb6f-fe53-443c-806c-077e2bbb5d14/f038ea58-2b1a-4d87-b3c8-8d32ce4ec05b"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -13321,7 +13498,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 142.24 184.15 0)
+		(at 141.605 184.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13331,7 +13508,7 @@
 		(dnp no)
 		(uuid "cd174eca-f75d-4c47-93b0-c0f69f8badbf")
 		(property "Reference" "C30"
-			(at 142.748 182.118 0)
+			(at 142.113 182.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13342,7 +13519,7 @@
 			)
 		)
 		(property "Value" "1µ"
-			(at 142.748 186.436 0)
+			(at 142.113 186.436 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13353,7 +13530,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 143.2052 187.96 0)
+			(at 142.5702 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13364,7 +13541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 184.15 0)
+			(at 141.605 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13375,7 +13552,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 142.24 184.15 0)
+			(at 141.605 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
