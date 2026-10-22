@@ -2969,16 +2969,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 90.17) (xy 217.17 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "025ddbc3-71d1-4dfd-a3a2-d716b218d170")
-	)
-	(wire
-		(pts
 			(xy 29.21 157.48) (xy 29.21 175.26)
 		)
 		(stroke
@@ -2989,7 +2979,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 175.26) (xy 68.58 175.26)
+			(xy 63.5 175.26) (xy 68.58 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3169,7 +3159,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 175.26) (xy 57.15 175.26)
+			(xy 29.21 175.26) (xy 55.88 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3249,13 +3239,21 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 52.07 26.035) (xy 59.055 26.035)
+=======
+			(xy 72.39 88.9) (xy 72.39 91.44)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "21bbd03c-21a8-46bd-84e9-cd4bccd1c025")
+=======
+		(uuid "20a3708c-f757-4a5f-af35-23ca0ed3b81e")
+>>>>>>> Stashed changes
 	)
 	(wire
 		(pts
@@ -3269,13 +3267,21 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 52.07 26.035) (xy 52.07 26.67)
+=======
+			(xy 144.78 87.63) (xy 144.78 90.17)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
+<<<<<<< Updated upstream
 		(uuid "246fdb41-f6da-41e2-9da4-3a2c0f8bee6f")
+=======
+		(uuid "2c925305-f021-4514-8baf-53f92a6042d1")
+>>>>>>> Stashed changes
 	)
 	(wire
 		(pts
@@ -3329,16 +3335,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 91.44) (xy 72.39 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "328df937-3fc1-4c80-a1f6-816cc4b24d61")
-	)
-	(wire
-		(pts
 			(xy 41.91 162.56) (xy 41.91 181.61)
 		)
 		(stroke
@@ -3346,6 +3342,16 @@
 			(type default)
 		)
 		(uuid "32ca856a-97b0-4380-956c-720aa4c597df")
+	)
+	(wire
+		(pts
+			(xy 217.17 87.63) (xy 217.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d79a7d-f08c-4fef-8f92-c76b56169bc4")
 	)
 	(wire
 		(pts
@@ -3919,6 +3925,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 144.78 97.79) (xy 144.78 99.06)
 		)
 		(stroke
@@ -3939,6 +3946,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 27.94 100.33) (xy 41.91 100.33)
 		)
 		(stroke
@@ -3966,6 +3975,16 @@
 			(type default)
 		)
 		(uuid "a1b41ab6-6ec7-4d7e-af60-961de82e0f35")
+	)
+	(wire
+		(pts
+			(xy 217.17 97.79) (xy 217.17 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2cc7e4b-ac26-4609-b619-a700432f5ab2")
 	)
 	(wire
 		(pts
@@ -4079,6 +4098,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 97.79) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beab53ef-ac0f-48d5-9efb-62bd0e91bbe2")
+	)
+	(wire
+		(pts
 			(xy 189.23 49.53) (xy 191.77 49.53)
 		)
 		(stroke
@@ -4149,6 +4178,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 217.17 97.79) (xy 217.17 99.06)
 		)
 		(stroke
@@ -4169,6 +4199,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 35.56 170.18) (xy 31.75 170.18)
 		)
 		(stroke
@@ -4276,6 +4308,16 @@
 			(type default)
 		)
 		(uuid "d7627716-b3d5-4d38-955a-c650e6793022")
+	)
+	(wire
+		(pts
+			(xy 72.39 99.06) (xy 72.39 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf50d36-c306-46ef-ae28-497bd436d0d4")
 	)
 	(wire
 		(pts
@@ -4426,26 +4468,6 @@
 			(type default)
 		)
 		(uuid "f5b47555-16f8-4b0b-9df9-22e17e433dc4")
-	)
-	(wire
-		(pts
-			(xy 144.78 90.17) (xy 144.78 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6e397dc-ffd8-4745-a2b4-861d0da1a48c")
-	)
-	(wire
-		(pts
-			(xy 72.39 99.06) (xy 72.39 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9172695-25da-46b3-9486-abc3c00bb863")
 	)
 	(wire
 		(pts
@@ -5549,7 +5571,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 144.78 93.98 270)
+		(at 144.78 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5560,25 +5582,25 @@
 		(fields_autoplaced yes)
 		(uuid "1e05da3a-1b79-45c1-81dc-b04c5ff7ed86")
 		(property "Reference" "D2"
-			(at 147.32 92.3924 90)
+			(at 147.32 93.0274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "Schottky"
-			(at 147.32 94.9324 90)
+			(at 147.32 95.5674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
@@ -6201,7 +6223,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 217.17 93.98 270)
+		(at 217.17 93.98 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6212,25 +6234,25 @@
 		(fields_autoplaced yes)
 		(uuid "34bd8bd7-959f-4572-9cef-1753896a9534")
 		(property "Reference" "D3"
-			(at 219.71 92.3924 90)
+			(at 219.71 93.0274 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "Schottky"
-			(at 219.71 94.9324 90)
+			(at 219.71 95.5674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
@@ -6360,7 +6382,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 60.96 175.26 90)
+		(at 59.69 175.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6370,7 +6392,7 @@
 		(dnp no)
 		(uuid "3e906c6d-e5f8-4f22-abe8-a97c8f75ffe3")
 		(property "Reference" "R16"
-			(at 60.706 172.974 90)
+			(at 59.436 172.974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6381,7 +6403,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 65.532 172.974 90)
+			(at 64.262 172.974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6392,7 +6414,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 60.96 177.038 90)
+			(at 59.69 177.038 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6403,7 +6425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 175.26 0)
+			(at 59.69 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6414,7 +6436,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 60.96 175.26 0)
+			(at 59.69 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10570,7 +10592,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 72.39 95.25 270)
+		(at 72.39 95.25 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10581,25 +10603,25 @@
 		(fields_autoplaced yes)
 		(uuid "fc4feabe-42ef-49de-88f2-ed0c9b0edb8d")
 		(property "Reference" "D1"
-			(at 74.93 93.6624 90)
+			(at 74.93 94.2974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "Schottky"
-			(at 74.93 96.2024 90)
+			(at 74.93 96.8374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
